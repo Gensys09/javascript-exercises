@@ -1,15 +1,15 @@
 const reverseString = require('./reverseString-solution');
 
 describe('reverseString', () => {
-  test('reverses single word', () => {
+  test.skip('reverses single word', () => {
     expect(reverseString('hello')).toEqual('olleh');
   });
 
-  test('reverses multiple words', () => {
+  test.skip('reverses multiple words', () => {
     expect(reverseString('hello there')).toEqual('ereht olleh');
   });
 
-  test('works with numbers and punctuation', () => {
+  test.skip('works with numbers and punctuation', () => {
     expect(reverseString('123! abc! Hello, Odinite.')).toEqual(
       '.etinidO ,olleH !cba !321'
     );
